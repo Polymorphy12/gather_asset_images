@@ -6,8 +6,8 @@ def unzip(source_file, dest_path):
         zf.extractall(path=dest_path)
         zf.close()
 
-originDirectory = 'C:/Users/ty79450/Desktop/창업/이미지들/'
-fileList = os.listdir('C:/Users/ty79450/Desktop/창업/이미지들/')
+originDirectory = 'C:/Users/username/Desktop/창업/이미지들/'
+fileList = os.listdir('C:/Users/username/Desktop/창업/이미지들/')
 
 for file in fileList:
     print(file)
